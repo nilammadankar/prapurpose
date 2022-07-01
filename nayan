@@ -1,0 +1,6 @@
+- name: jarvis
+  hosts: localhost
+  tasks:
+  - name: print messages_1 freshly cloudblitz.in
+    debug:
+     msg: "hello, welcome to fresh messages_1"
