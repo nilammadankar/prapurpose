@@ -1,6 +1,6 @@
 - name: playbook1
   hosts: localhost
-  vars_files: file_var.yaml
+  vars_files: file_var.yml
   
   
   tasks:
