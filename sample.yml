@@ -1,10 +1,10 @@
-- name: Playbook1
-  hosts: localhost
-  vars: 
+ - name: Playbook1
+   hosts: localhost
+   vars: 
     URL: cloudblitz.in
-  tasks:
-  - name: Print messages_1
-    debug: 
+   tasks:
+   - name: Print messages_1
+     debug: 
       msg: "{{URL}}"
   
 
