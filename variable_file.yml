@@ -1,0 +1,7 @@
+- name: playbook1
+  hosts: localhost
+  vars_files: file_var.yaml
+  tasks:
+  - name: print_messages_1
+    debug:
+     msg: "{{URL}}"
