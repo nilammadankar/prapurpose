@@ -1,4 +1,4 @@
-- name: Playbook1
+- name: Playbook
   hosts: all
   vars: 
     URL: cloudblitz.in
