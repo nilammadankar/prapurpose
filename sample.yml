@@ -1,7 +1,7 @@
 - name: Playbook1
   hosts: localhost
   tasks:
-     - name: Print messages_1
-       debug: 
-        msg: "{{cloudblitz.in}}"
+  - name: Print messages_1
+    debug: 
+      msg: "{{cloudblitz.in}}"
   
