@@ -3,5 +3,7 @@
   tasks:
   - name: Print messages_1
     debug: 
-      msg: "{{cloudblitz.in}}"
+      msg: "{{}}"
   
+
+
