@@ -1,5 +1,5 @@
 - name: Playbook
-  hosts: all
+  hosts: localhost
   vars: 
     URL: cloudblitz.in
   tasks:
