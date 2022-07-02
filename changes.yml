@@ -1,24 +1,6 @@
 - name: playbook - 3
-  hosts: localhost
-  tasks:
-    
-    - name: Print the task_0
+  hosts: all
+   tasks:
+    - name: print the host details_1
       debug:
-        msg: "{{ansible_selinux_python_present}}"
-      tags: tag0
-
-
-    - name: Print the task_1
-      debug:
-        msg: "web server"
-      tags: tag1
-
-    - name: Print the task_2
-      debug:
-        msg: "db server"
-      tags: tag2
-
-    - name: Print the task_3
-      debug:
-        msg: "my server"
-      tags: tag3
+        msg: "Domain name of ansible: {{ansible_lo.features.rx_udp_gro_forwarding}}"
