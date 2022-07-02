@@ -1,6 +1,6 @@
 - name: playbook - 3
   hosts: localhost
-   tasks:
-    - name: print the host details_1
-      debug:
-        msg: "facts of ansible: {{ansible_facts}}"
+  tasks:
+   - name: print the host details_1
+     debug:
+      msg: "facts of ansible: {{ansible_facts}}"
