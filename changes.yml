@@ -3,4 +3,4 @@
   tasks:
    - name: print the host details_1
      debug:
-      msg: "facts of ansible: {{ansible_facts}}"
+      msg: "distributionname of ansible: {{ansible_distribution}}"
