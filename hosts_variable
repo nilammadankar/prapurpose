@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
   - name: Print messages_2
-      debug:
-        msg: "{{URL}}"
+    debug:
+     msg: "{{URL}}"
